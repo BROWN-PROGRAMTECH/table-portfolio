@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+body {
+  font-size: 62.5%;
+  background-color: #27211d;
+  color: #c6a994;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.header_table {
+  background-color: #2f2823;
+  width: 100%;
+  height: 120px;
+}
+.table_head {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+.logo {
+  column-span: 3;
+  padding: 1rem;
+}
+.logo_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover {
+  cursor: pointer;
+  color: yellowgreen;
+}
+a:active {
+  color: rosybrown;
+}
+th {
+  text-align: center;
+  color: whitesmoke;
+}
+.icon_search {
+  width: 35px;
+  height: 35px;
+}
+.searbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  background-color: whitesmoke;
+  color: #c6a994;
+  border-radius: 10px;
+  height: 40px;
+  width: 70%;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.home_link {
+  column-span: 2;
+}
+.title_body {
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 20px;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+.table_body {
+  margin-left: auto;
+  margin-right: auto;
+}
+.image_logo {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.left_section1 {
+  width: 50%;
+}
+
+.right_section1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+button {
+  background-color: #2f2823;
+  border: none;
+  box-shadow: 2px 2px 2px 2px #c6a994;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+button:hover {
+  cursor: pointer;
+  color: yellowgreen;
+}
+
+.second_section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.span1 {
+  grid-area: span1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+.span2 {
+  grid-area: span2;
+  display: flex;
+  height: -webkit-fill-available;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+.fako_img {
+  position: relative;
+  margin-top: 15px;
+  height: 100%;
+  border-radius: 30px;
+}
+.second_section1 {
+  width: 100%;
+  height: 640px;
+  padding: 2rem;
+}
+.wild {
+  font-size: 2.1rem;
+  margin-top: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.mountain_img {
+  width: 100%;
+  height: 370px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.hay {
+  font-family: auto;
+  font-weight: bold;
+  font-size: 10rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.foot_section {
+  width: 100%;
+  padding: 0 5rem;
+}
+.contact a {
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.description{
+    gap: 2rem;
+    margin: 0 auto;
+}
+.aboutme, .skills, .lorem{
+font-size: 2rem;
+  padding: 30px 5rem;
+    text-align: center;
+    width: 50%;
+}
+.title_{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 15px 40px;
+
+}
+li{
+    list-style: none;
+    font-size: 2rem;
+    padding: 10px 5rem;
+    text-align: center;
+}
+.lorem, .projects{
+  width: 100%;
+  margin: 60px auto;
+}
